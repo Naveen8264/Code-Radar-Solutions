@@ -13,9 +13,9 @@ int main() {
 
     // Check if the sides form a valid triangle
     if (side1 + side2 > side3 && side1 + side3 > side2 && side2 + side3 > side1) {
-        printf("Valid triangle\n");
+        printf("Valid \n");
     } else {
-        printf("Invalid triangle\n");
+        printf("Invalid \n");
     }
 
     return 0;
