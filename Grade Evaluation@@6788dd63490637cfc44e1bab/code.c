@@ -7,13 +7,13 @@ int main() {
     if (ch=="A"){
         printf("Excellent");
     }elseif(ch=="B"){
-        printf("Good")
+        printf("Good");
     }elseif(ch==""C){
-        printf("Average")
+        printf("Average");
     }elseif(ch=="D"){
-        printf("Below Average")
+        printf("Below Average");
     }else{
-        printf("Fail")
+        printf("Fail");
     }
     return 0;
 }    
