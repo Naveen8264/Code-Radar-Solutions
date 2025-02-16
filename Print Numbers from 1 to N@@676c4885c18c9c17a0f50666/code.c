@@ -13,10 +13,9 @@ int main(){
 
 int main() {
     int a;
-    scanf("%d", &a);  // Read the integer value
-    
-    for (int i = 1; i <= a; i++) {  // Loop from 1 to a
-        printf("%d", i);  // Print the current value of i
+    scanf("%d", &a);  
+    for (int i = 1; i <= a; i++) {  
+        printf("%d", i);  
     }
     
     return 0;
