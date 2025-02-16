@@ -4,13 +4,13 @@
 int main() {
     int ch;
     scanf("%c",&ch);
-    if (ch=="A"){
+    if (ch=='A'){
         printf("Excellent");
-    }else if(ch=="B"){
+    }else if(ch=='B'){
         printf("Good");
-    }else if(ch=="C"){
+    }else if(ch=='C'){
         printf("Average");
-    }else if(ch=="D"){
+    }else if(ch=='D'){
         printf("Below Average");
     }else{
         printf("Fail");
