@@ -11,7 +11,7 @@ int main() {
     }else if{
         printf("Invalid month");
     }else{
-        printf("30")
+        printf("30");
     }
     return 0;
 }    
