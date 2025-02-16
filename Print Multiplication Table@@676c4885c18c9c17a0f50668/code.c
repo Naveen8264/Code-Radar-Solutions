@@ -5,8 +5,8 @@ int main() {
     int a;
     scanf("%d", &a);  // Read the integer value
     
-    for (int i = 1; i <= 10; i++) {  // Loop from 1 to a
-        printf("2 X i = %d",n*i );  // Print the current value of i
+    for (int i = 1; i <= 10; i++) {  
+        printf("2 X i = %d",n*a);  
     }
     
     return 0;
