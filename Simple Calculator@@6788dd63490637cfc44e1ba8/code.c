@@ -3,15 +3,15 @@
 int main(){
     int a,b;
     scanf("%d%d",&a,&b);
-    char c;
-    scanf("%c",&c);
-    if(c=="+"){
+    char op;
+    scanf("%c",&op);
+    if(op=="+"){
         printf(a+b);
-    }else if (c=="-"){
+    }else if (op=="-"){
         printf(a-b);
-    }else if (c=="*"){
+    }else if (op=="*"){
         printf(a*b);
-    }else if (c=="/"){
+    }else if (op=="/"){
         printf(a/b);
     }else{
         printf("Error");
