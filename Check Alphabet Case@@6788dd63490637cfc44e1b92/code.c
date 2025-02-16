@@ -10,7 +10,7 @@ int main() {
     } else if (ch >= 'a' && ch <= 'z') { // Check if the character is lowercase
         printf("Lowercase");
     } else {
-        printf("Not a letter"); // Optional: to handle non-letter characters
+        printf("Not an letter"); // Optional: to handle non-letter characters
     }
 
     return 0;
