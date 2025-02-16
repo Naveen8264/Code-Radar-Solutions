@@ -6,11 +6,11 @@ int main() {
     scanf("%c",&ch);
     if (ch=="A"){
         printf("Excellent");
-    }elseif(ch=="B"){
+    }else if(ch=="B"){
         printf("Good");
-    }elseif(ch=="C"){
+    }else if(ch=="C"){
         printf("Average");
-    }elseif(ch=="D"){
+    }else if(ch=="D"){
         printf("Below Average");
     }else{
         printf("Fail");
