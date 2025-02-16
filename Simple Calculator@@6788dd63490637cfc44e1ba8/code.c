@@ -5,7 +5,7 @@ int main(){
     scanf("%d%d",&a,&b);
     char c;
     scanf("%c",&c);
-    if (c==+){
+    if(c==+){
         printf(a+b);
     }else if (c==-){
         printf(a-b);
@@ -13,6 +13,8 @@ int main(){
         printf(a*b);
     }else if (c==/){
         printf(a/b);
+    }else{
+        printf("Error");
     }
     return 0;
 }
